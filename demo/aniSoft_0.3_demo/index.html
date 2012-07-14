@@ -1,0 +1,125 @@
+<!--
+	http://www.gartflores.com
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+		<link rel="stylesheet" type="text/css" href="style/aniStyle.css" />
+		<link rel="stylesheet" type="text/css" href="style/index.css" />
+		<script type="text/javascript" src="script/jquery.js"></script>
+		<script type="text/javascript" src="script/aniSoft-min.js"></script>
+		<script type="text/javascript" src="script/aniSoft-extras-min.js"></script>
+		
+		<!--[if lt IE 9]>
+			<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<meta name="description" content="Web Development / Coding + Design experiments" /> 
+		<title>aniSoft 0.3 - Minimal Demo</title>
+		
+		<script type='text/javascript'>
+		
+			$(document).ready(function(){	
+		    	ani.init($('#aniScroll'), {
+		    		aniWidth : 50,
+		    		sectionHeight : 350,
+		    		speed: 500,
+		    		easeType : 'easeInExpo',
+		    		contentFullHeight : '1000px',
+		    		sectionbgcolors : '#222',
+		    		scrollableSections : [4],
+		    		history : ['section0','section1','section2'],
+		    		pageTitles : ['pageTitle 0','pageTitle 1','pageTitle 2']
+		    	});
+			});	
+</script>
+		
+	</head>
+	<body>
+		<nav>
+			<ul>
+				<li><a class='nav'>section 0</a></li>
+				<li><a class='nav'>section 1</a></li>
+				<li><a class='nav'>section 2</a></li>
+			</ul>
+		</nav>
+		
+		<div id="loaderbg">
+			<div id="loader">
+				<img id="loadImg" src='img/loader.gif' alt='' />
+			</div>
+		</div>
+		
+		<div id="aniScroll">
+			<div id="aniLeft"></div>
+
+			<div id="aniWrap">
+				<div id="0">
+					<div id='m0' class='mask'></div>
+					<div class='aniClose'></div>
+					<h1>Section 0</h1>
+					<div class='aniContent'>
+						<div class='aniLeft aniContent'>
+							<p class='leftText'>Section0Left Content</p>
+						</div>
+						<div class='aniRight aniContent'>
+							<a href='javascript:ani.contentClick(0);'><p class='rightText'>Section0Right Content with FullView action on click</p></a>
+						</div>
+						<div class='fullView'>
+							Section Full View Content <br />
+							Section Full View Content <br />
+							Section Full View Content <br />
+							Section Full View Content <br />
+							Section Full View Content <br />
+							Section Full View Content <br />
+							Section Full View Content <br />
+							Section Full View Content <br />
+							Section Full View Content <br />
+							Section Full View Content <br />
+						</div>
+					</div>
+				</div>
+				
+				<div id="1">
+					<div id='m1' class='mask'></div>
+					<div class='aniClose'></div>
+					<h1>Section 1</h1>
+					<div class='aniContent'>
+						<div class='aniLeft aniContent'>
+							<p class='leftText'>Lorem ipsum dilor sit amet. Lorem ipsum dilor sit amet. Lorem ipsum dilor sit amet. Lorem ipsum dilor sit amet. Lorem ipsum dilor sit amet. Lorem ipsum dilor sit amet.  </p>
+						</div>
+					</div>
+				</div>
+
+				<div id="2">
+					<div id='m2' class='mask'></div>
+					<div class='aniClose'></div>
+					<h1>browser compatibility</h1>
+					<div class='aniContent'>
+						<div class='aniLeft aniContent'>
+							<p class='leftText'>Current version tested with browsers: Chrome 19, FireFox 13, Safari 5.1.4, Opera 11.64. </p>
+						</div>
+						<div class='aniRight aniContent'>
+							
+						</div>
+					</div>
+				</div>
+	
+			</div>
+		
+			<div id="aniRight"></div>
+		</div> <!-- aniScroll -->
+		
+		<div class='clearer'></div>
+		
+		<div id='footer'>
+			<p class='foot'>Visit <a href='http://gartflores.com'>gartflores.com</a></p>
+		</div>
+	
+	</body>
+</html>
+
+<!--
+	http://www.gartflores.com
+-->

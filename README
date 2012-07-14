@@ -1,0 +1,35 @@
+aniSoft - animated Scrolling plugin for JQuery by Gart Flores
+
+----------------------------
+
+view demo here: <a href='http://www.bugnocturnal.com/lab/aniSoft'>bugnocturnal.com/lab/aniSoft</a>
+
+----------------------------
+
+Documentation hosted here: <a href='http://www.bugnocturnal.com/lab/aniSoft/documentation/'>bugnocturnal.com/lab/aniSoft/documentation/</a>
+
+----------------------------
+
+-added History for browser back button functionality
+-added option to make certain sections scrollable if needed
+-added bg colors to options
+-added content 'fullView' with close btn
+-added minified version of external plugins this uses
+-minor refactoring
+	
+----------------------------
+	
+browser compatibility [ tested ]: Chrome 19, Safari 5.1.4, ie 8, ie 9
+last update - 06/28/12
+version - 0.2
+	
+----------------------------
+	
+dependencies [ included in aniSoft-extras-min.js ]:
+	
+jquery 1.7.2
+http://gsgd.co.uk/sandbox/jquery/easing/
+https://github.com/jquery/jquery-color
+https://github.com/desandro/imagesloaded
+
+----------------------------
