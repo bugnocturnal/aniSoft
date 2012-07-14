@@ -1,14 +1,18 @@
-aniSoft - animated Scrolling plugin for JQuery by Gart Flores
+aniSoft - animated navigation system - plugin for JQuery
 
 ----------------------------
 
-view demo here: <a href='http://www.bugnocturnal.com/lab/aniSoft'>bugnocturnal.com/lab/aniSoft</a>
+view demo: http://www.bugnocturnal.com/lab/aniSoft
 
 ----------------------------
 
-Documentation hosted here: <a href='http://www.bugnocturnal.com/lab/aniSoft/documentation/'>bugnocturnal.com/lab/aniSoft/documentation/</a>
+view documentation: http://www.bugnocturnal.com/lab/aniSoft/documentation/
 
 ----------------------------
+
+browser compatibility [ tested ]: Chrome 19, FireFox 13, Safari 5.1.4, Opera 11.64
+last update - 07/12/12
+version - 0.3
 
 -added History for browser back button functionality
 -added option to make certain sections scrollable if needed
